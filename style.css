@@ -15,7 +15,7 @@ nav{
     right: 0!important;
     background: transparent !important;
     z-index: 100;
-    right: 1vw !important;
+    right: 2vw !important;
     top: 1vw;
     cursor: pointer;
 }
@@ -108,12 +108,13 @@ top: 1vw;
     opacity: 0;
 }
 .offcanvas{
-    width: 30%!important;
+    width: 50%!important;
 }
-.backend-projects p{
+.backend-projects span{
+    display: inline-block;
     color: #494a4b;
-    font-size: 14px;
     padding: 1vw;
+    text-align: center;
 }
 #skills li{
     list-style: none;
