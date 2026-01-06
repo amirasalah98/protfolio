@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+  crossorigin="anonymous"
+>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,91 +19,83 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://storage.googleapis.com/campaigns-new-uploads/forms/form-css.css.gz" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Amira Salah</title>
 </head>
 <body>
-    <div class="menu-all pos-f-t d-flex justify-content-between">
+  <!-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  Link with href
+</a> -->
+<nav class="navbar navbar-dark ">
+<button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+  <span class="navbar-toggler-icon"></span>
+</button>
+</nav>
+<div class="bg-dark offcanvas offcanvas-start show" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+     <h5 class="text-white h4 text-center">Amira Salah</h5>
+            <span class="text-white d-block text-center">Frontend Developer ( React) | Node.js & REST APIs</span><br>
+            <a href="#" target="_blank" class="linkedin-icon d-flex justify-content-center"><i class="fa-brands fa-linkedin"></i></a>
+   
+    <!-- <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Dropdown button
+      </button> -->
+      <ul class="menu-all">
+        <li><i class="fa-solid fa-house"></i> <a href="#home"> Home</a></li>
+        <li><i class="fa-regular fa-user"></i> <a href="#about"> About</a></li>
+        <li><i class="fa-regular fa-user"></i> <a href="#Experience"> Experience</a></li>
+        <li><i class="fa-regular fa-images"></i> <a href="#projects"> Projects</a></li>
+        <li><i class="fa-regular fa-images"></i> <a href="#skills"> Projects</a></li>
+        <li><i class="fa-regular fa-envelope"></i> <a href="#contact"> Contact</a></li>
+      </ul>
+    <!-- </div> -->
+  </div>
+</div>
+    <!-- <div class="menu-all pos-f-t d-flex justify-content-between">
         <div class="collapse show w-25 " id="navbarToggleExternalContent">
           <div class="bg-dark p-4">
             <h5 class="text-white h4 text-center">Amira Salah</h5>
-            <span class="text-white d-block text-center">Frontend developer</span><br>
+            <span class="text-white d-block text-center">Frontend Developer ( React) | Node.js & REST APIs</span><br>
             <a href="#" target="_blank" class="linkedin-icon d-flex justify-content-center"><i class="fa-brands fa-linkedin"></i></a>
             <ul>
                 <li class="py-3"><i class="fa-solid fa-house"></i><a href="#home"> Home</a></li>
                 <li class="py-3"><i class="fa-regular fa-user"></i><a href="#about"> About</a></li>
-                <li class="py-3"><i class="fa-regular fa-user"></i><a href="#resume"> Resume</a></li>
+                <li class="py-3"><i class="fa-regular fa-user"></i><a href="#experience"> Experience</a></li>
                 <li class="py-3"><i class="fa-regular fa-images"></i><a href="#projects"> Projects</a></li>
                 <li class="py-3"><i class="fa-regular fa-envelope"></i> Contact</li>
             </ul>
           </div>
         </div>
-        <nav class="navbar navbar-dark ">
+        <nav class="navbar navbar-dark">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         </nav>
         
-      </div>
-      <div class="main-content m-3">
+      </div> -->
+      <div class="main-content m-3 mt-5 ">
         <div class="" id="about">
         <h1>About</h1>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-          aliquid fuga eum quidem. Sit sint consectetur velit. 
-          Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-          Quia fugiat sit in iste officiis commodi quidem hic quas.
+        <p>Motivated and detail-oriented Web Developer skilled in building responsive, interactive interfaces using React and
+JavaScript. Currently expanding backend knowledge through Node.js and strengthening problem-solving skills with
+an Algorithms and Data Structures course. I am passionate about writing clean, maintainable code and
+continuously improving as a developer.
         </p>
         <ul style="list-style: none;">
           <li><i class="fa-solid fa-chevron-right"></i> <b class="px-2"> Birthday: </b>26 Feb 1998</li>
           <li><i class="fa-solid fa-chevron-right"></i> <b class="px-2"> Phone: </b>01206042965</li>
           <li><i class="fa-solid fa-chevron-right"></i> <b class="px-2"> City: </b>Alexandria, Egypt</li>
-          <li><i class="fa-solid fa-chevron-right"></i> <b class="px-2"> Email: </b>Amira.salahh9@gmail.com</li>
+          <li><i class="fa-solid fa-chevron-right"></i> <b class="px-2"> Email: </b>amiraelkemary98@gmail.com</li>
         </ul>
       </div>
-      <div id="resume">
-        <h1>Resume</h1>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-          aliquid fuga eum quidem. Sit sint consectetur velit. 
-          Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-          Quia fugiat sit in iste officiis commodi quidem hic quas.
-        </p>
+      <div id="experience">
      
       <div class="d-flex">
-        <div class="w-50">
-          <h2>Sumary</h2>
-          <div class="resume-details">
-          <div class="d-flex">
-            <i class="fa-regular fa-circle"></i>
-            <h3>Senior graphic design specialist</h3>
-          </div>
-          <span>2019 - Present</span><br>
-          <span>Experion, New York, NY</span>
-          <ul>
-            <li>Lead in the design, development, 
-              and implementation of the graphic, layout,
-              and production communication materials</li>
-              <li>Lead in the design, development,
-                and implementation of the graphic, layout,
-                and production communication materials</li>
-          </ul>
-        </div>
-        <div class="resume-details">
-          <div class="d-flex">
-            <i class="fa-regular fa-circle"></i>
-            <h3>Senior graphic design specialist</h3>
-          </div>
-          <span>2019 - Present</span><br>
-          <span>Experion, New York, NY</span>
-          <ul>
-            <li>Lead in the design, development, 
-              and implementation of the graphic, layout,
-              and production communication materials</li>
-              <li>Lead in the design, development,
-                and implementation of the graphic, layout,
-                and production communication materials</li>
-          </ul>
-        </div>
-        </div>
         <div  class="w-50">
           <h2>Education</h2>
           <div class="resume-details">
@@ -111,49 +106,150 @@
           <span>2019</span><br>
           <span>Alexandria University</span>
           </div>
+          <h2>Certificates & Courses</h2>
+          <div class="resume-details">
+            <div class="d-flex">
+            <i class="fa-regular fa-circle"></i>
+            <ul>
+              <li>NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno) - Udemy(2025) <a class="Certification" target="_blank" href="images/nodejs.jpg" >Certification</a></li>
+              <li>JavaScript Algorithms and Data Structures Masterclass - Udemy(2025) <a class="Certification" target="_blank" href="images/js.jpg">Certification</a>
+              <li>React.JS workshop - Route Academy(2023)</li>
+              <li>Web development using Node JS and Angular - NTI (2021)</li></li>
+            </ul>
+          </div>
+          
+          </div>
         </div>
+        <div class="w-50">
+          <h2>Experience</h2>
+          <div class="resume-details">
+          <div class="d-flex">
+            <i class="fa-regular fa-circle"></i>
+            <h3>Web Developer / webmaster at Unilever</h3>
+          </div>
+          <span>APR 2023 – DEC 2025</span><br>
+          <span>Remote, Egypt</span>
+          <ul>
+            <li>Maintain and update multiple company websites, ensuring performance, responsiveness, andaccessibility.</li>
+              <li>Redesigned and enhanced the UI of an internal tool using React.js, improving usability and interface consistency.</li>
+              <li>Collaborate with cross-functional teams (design, marketing, backend) to deploy new website features and campaigns.</li>
+              <li>Troubleshoot technical issues and ensure smooth deployment workflows.</li>
+          </ul>
+        </div>
+        <div class="resume-details">
+          <div class="d-flex">
+            <i class="fa-regular fa-circle"></i>
+            <h3>Wordpress Developer at Media solutions</h3>
+          </div>
+          <span>MAY 2022 – MAR 2023</span><br>
+          <span>Alexandria, Egypt</span>
+          <ul>
+            <li>Designed and developed website architecture and implemented new features and functionalities.</li>
+              <li>Created responsive, mobile-first websites based on design concepts.</li>
+              <li>Optimized websites for search engines using Google Search Console (SEO).</li>
+              <li>Managed websites and databases, configured custom domain emails, and handled DNS settings on cPanel, phpMyAdmin, and GoDaddy.</li>
+          </ul>
+        </div>
+        <div class="resume-details">
+          <div class="d-flex">
+            <i class="fa-regular fa-circle"></i>
+            <h3>Product Owner at Q-Vision</h3>
+          </div>
+          <span>MAY 2020 – JUL 2020</span><br>
+          <span>Alexandria, Egypt</span>
+          <ul>
+            <li>Managed product backlog and collaborated with developers in an agile environment to deliver custom applications and trackers.</li>
+              <li>Brainstormed with design team to plan enhancements and new product features.</li>
+          </ul>
+        </div>
+        </div>
+        
       </div>
       </div>
       <div class="" id="projects">
         <h1>Projects</h1>
+        <h2>Frontend:</h2>
         <div class="d-flex row ">
-          <div class="project-details col-md-4 my-1">
-            <i class="fa-solid fa-link"></i>
+          
+          <div class="project-details col-md-4 my-1 project-details-white">
             <a href="https://www.unileverdigital.com/arabia/mangrove/index.html" target="_blank">Mangroves Microsite</a>
           </div>
           <div class="project-details col-md-4 my-1">
-            <i class="fa-solid fa-link"></i>
-            <a href="https://www.unileverdigital.com/arabia/mangrove/index.html" target="_blank">Mangroves Microsite</a>
+            <a href="unileverdigital.com/tr/algida-maras/index.html" target="_blank">Maraş Usulü</a>
+          </div>
+          <div class="project-details col-md-4 my-1 project-details-white">
+            <a href="https://amirasalah98.github.io/maras-usulii/" target="_blank">Maraş Usulü (Another design)</a>
           </div>
           <div class="project-details col-md-4 my-1">
-            <i class="fa-solid fa-link"></i>
-            <a href="https://www.unileverdigital.com/arabia/mangrove/index.html" target="_blank">Mangroves Microsite</a>
+            <a href="https://amirasalah98.github.io/signal-campaign/" target="_blank">Signal</a>
+          </div>
+          <div class="project-details col-md-4 my-1 project-details-white">
+            <a href="https://amirasalah98.github.io/Lifebouy-support/" target="_blank">Lifebouy Support</a>
           </div>
           <div class="project-details col-md-4 my-1">
-            <i class="fa-solid fa-link"></i>
-            <a href="https://www.unileverdigital.com/arabia/mangrove/index.html" target="_blank">Mangroves Microsite</a>
-          </div>
-          <div class="project-details col-md-4 my-1">
-            <i class="fa-solid fa-link"></i>
-            <a href="https://www.unileverdigital.com/arabia/mangrove/index.html" target="_blank">Mangroves Microsite</a>
-          </div>
-          <div class="project-details col-md-4 my-1">
-            <i class="fa-solid fa-link"></i>
-            <a href="https://www.unileverdigital.com/arabia/mangrove/index.html" target="_blank">Mangroves Microsite</a>
+            <a href="https://amirasalah98.github.io/alqudra-machinery/Construction_Equipments_RoutMap.htm" target="_blank">Alqudra Machinery</a>
           </div>
         </div>
+        <h2 class="mt-5">Backend:</h2>
+        <div class="d-flex row backend-projects">
+        <div class="project-details col-md-4 my-1 project-details-white">
+            <a href="https://github.com/amirasalah98/Library-Management-System" target="_blank">Library Management System</a>
+            <p>Library Management System built with Node.js, Express, EJS, and MongoDB:</p>
+
+        </div>
+        <div class="project-details col-md-4 my-1">
+            <a href="https://github.com/amirasalah98/Email-sending" target="_blank">Email-sending system</a>
+            <p>A simple yet powerful email-sending system built using Node.js, Express, Body-Parser, and Nodemailer:</p>
+        </div>
+        <div class="project-details col-md-4 my-1 project-details-white">
+            <a href="https://github.com/amirasalah98/Chat-App" target="_blank">Real-time Chat App</a>
+            <p>Real-time Chat App with JWT auth, Socket.io, MongoDB:</p>
+        </div>
+        </div>
+      </div>
+      <div id="skills">
+        <h1>Skills</h1>
+        <div class="d-flex justify-content-between">
+        <ul class="">
+          <li><i class="fa-solid fa-chevron-right"></i> HTML5, CSS</li>
+          <li><i class="fa-solid fa-chevron-right"></i> Bootstrap</li>
+          <li><i class="fa-solid fa-chevron-right"></i> JavaScript (ES6+) </li>
+          <li><i class="fa-solid fa-chevron-right"></i> React.js</li>
+          </ul>
+          <ul>
+          <li><i class="fa-solid fa-chevron-right"></i> Redux</li>
+          <li><i class="fa-solid fa-chevron-right"></i> Next.js</li>
+          <li><i class="fa-solid fa-chevron-right"></i> Git, GitHub</li>
+          <li><i class="fa-solid fa-chevron-right"></i> Problem Solving</li>
+          </ul>
         
+        <ul>
+          <li><i class="fa-solid fa-chevron-right"></i> Node.js</li>
+          <li><i class="fa-solid fa-chevron-right"></i> MVC architecture</li>
+          <li><i class="fa-solid fa-chevron-right"></i> Express</li>
+          <li><i class="fa-solid fa-chevron-right"></i> RESTful APIs</li>
+         </ul>
+          <ul>
+          <li><i class="fa-solid fa-chevron-right"></i> MongoDB</li>
+          <li><i class="fa-solid fa-chevron-right"></i> JWT Authentication </li>
+          <li><i class="fa-solid fa-chevron-right"></i> Error handling & validation</li>
+        </ul>
+        </div>
       </div>
         </div>
-        </div>
-      </div>
+       
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"
+></script>
+
     <script src="script.js"></script>
 </body>
 </html>
