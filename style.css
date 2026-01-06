@@ -29,6 +29,9 @@ padding: 1vw;
 .bg-dark{
     background-color: #040b14!important;
 }
+.main-content #about{
+    font-size: 16px;
+}
 .main-content #about ul{
     padding: 0!important;
 }
@@ -127,5 +130,8 @@ top: 1vw;
     .half-width{
           width: 95% !important;
   position: relative;
+    }
+    .resume-details{
+        padding-left: 4vw;
     }
 }
