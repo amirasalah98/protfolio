@@ -73,6 +73,7 @@ top: 1vw;
     background-color: white;
 }
 .project-details{
+    cursor: pointer;
     height: 200px;
     background-color: rgb(75, 167, 220);
     color: white;
@@ -83,16 +84,27 @@ top: 1vw;
     align-items: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     border-radius: 3px;
+    /* transition: color .1s, background-color .1s; */
+}
+.project-details:hover, .project-details:hover a{
+    background-color: white;
+color: rgb(75, 167, 220);
 }
 .project-details-white{
     background-color: white;
-    border: 1px solid rgb(75, 167, 220);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     color: rgb(75, 167, 220);
+    /* transition: color .1s, background-color .1s; */
+}
+.project-details-white:hover, .project-details-white:hover a{
+    background-color: rgb(75, 167, 220);
+    color: white;
 }
 .project-details a{
     color: white;
     font-size: 20px;
 }
+
 .project-details-white a{
     color: rgb(75, 167, 220);
 }
